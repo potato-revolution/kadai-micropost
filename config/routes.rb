@@ -11,7 +11,7 @@ Rails.application.routes.draw do
     member do
       get :followings
       get :followers
-      get :microposts_liked
+      get :likes
     end
   end
   
